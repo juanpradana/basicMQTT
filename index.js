@@ -2,7 +2,7 @@ import { connect } from 'mqtt'
 import dotenv from 'dotenv';
 dotenv.config();
 
-const mqttClient = connect(process.env.ADDRESS_MQTT, { username: 'ranto', password: 'koplak' });
+const mqttClient = connect(process.env.ADDRESS_MQTT, { username: 'zan', password: 'mainnyahebat' });
 
 const queryTopic = 'resolveMyQuery';
 const responseTopic = 'responseFromServer';
